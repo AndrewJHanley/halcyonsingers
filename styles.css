@@ -108,7 +108,7 @@ header {
     flex-direction: row;
     gap: 20px;
     align-items: flex-start;
-    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .director-content p {
@@ -128,7 +128,12 @@ header {
     }
 
     .director-content img {
+        width: 100%;
         max-width: 100%;
+        display: block;
+    }
+
+    .director-content p {
         width: 100%;
     }
 }
